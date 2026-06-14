@@ -1,7 +1,7 @@
 /*
- * Phyxon Remote Controller Firmware
+ * Home Automation Remote Controller Firmware
  * Hardware: Wemos D1 Mini (ESP8266)
- * Target: Phyxon Tech V1 Home Automation (192.168.0.200)
+ * Target: Wi-Fi Based Home Automation (192.168.0.200)
  *
  * Pin Mapping:
  *   Debug LED  : D8 / GPIO15 (NPN transistor, active HIGH)
@@ -38,7 +38,7 @@
 #define COL4        13   // D7
 
 // ─── Network Config ────────────────────────────────────────────────────────
-const char*   AP_SSID       = "Phyxon Remote Controller";
+const char*   AP_SSID       = "Home-Auto Remote Controller";
 const char*   AP_PASSWORD   = "";                    // Open network
 IPAddress     AP_IP(192, 168, 5, 1);
 IPAddress     AP_GATEWAY(192, 168, 5, 1);
