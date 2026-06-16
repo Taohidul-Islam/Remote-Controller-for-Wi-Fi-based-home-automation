@@ -1,12 +1,13 @@
 /*
  * ============================================================
- *   Phyxon Remote Controller Firmware v3.0
- *   by Taohid | Phyxon Tech
+ *   Wi-Fi Home Automation Remote Controller Firmware v2.2
+ *   by Taohid |
  *   Hardware: Wemos D1 Mini (ESP8266)
  *   Target: Phyxon Home Automation v2.x (192.168.0.200)
+ *   Change Line 76 as per your credentials.
  * ============================================================
  *
- * Changes in v3.0:
+ * Changes in v2.2:
  *   - 1-8: toggle relays 1-8
  *   - 9: increase people count
  *   - 0: decrease people count
@@ -72,7 +73,7 @@ const char*  HOME_AUTO_IP       = "192.168.0.200";
 const int    HOME_AUTO_PORT     = 80;
 
 // OTA servers
-const char*  OTA_HOST_MAIN      = "103.92.206.122";
+const char*  OTA_HOST_MAIN      = "YOUR OTA SERRVER IP";
 const int    OTA_PORT_MAIN      = 8080;   // main board OTA
 const int    OTA_PORT_REMOTE    = 8282;   // remote OTA
 const char*  REMOTE_FW_VERSION  = "3.0";
