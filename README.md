@@ -13,6 +13,8 @@ It also does have a debug LED.</p>
      6---> Toggles Relay 6<br>
      7---> Toggles Relay 7<br>
      8---> Toggles Relay 8<br>
+     9---> Increase people count by one. <br>
+     0---> Decrease people count by one. <br>
      A---> Changes display output and keeps the screen still<br>
      B---> Changes display output and keeps the screen switching<br>
      C---> Toggles LED indicator<br>
